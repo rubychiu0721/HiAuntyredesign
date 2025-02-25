@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>愛月嫂 - 專業月子照顧服務</title>
+        <link rel="stylesheet" href="/css/reset.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/" />
+        <script src="/script.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header-container">
+                <!-- Logo -->
+                <a href="/html/index.html" class="logo">
+                    <img src="/img/logo.png" alt="愛月嫂" />
+                </a>
+
+                <!-- Navigation -->
+                <nav class="nav-menu">
+                    <div class="nav-item dropdown">
+                        <a href="#" class="dropdown-trigger">
+                            月嫂服務
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">服務項目1</a></li>
+                            <li><a href="#">服務項目2</a></li>
+                            <li><a href="#">服務項目2</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="dropdown-trigger">
+                            附加服務
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">附加項目1</a></li>
+                            <li><a href="#">附加項目2</a></li>
+                            <li><a href="#">附加項目2</a></li>
+                            <li><a href="#">附加項目2</a></li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="nav-item">月子商城</a>
+                </nav>
+
+                <!-- Search and Actions -->
+                <div class="header-actions">
+                    <div class="search-container">
+                        <input
+                            type="text"
+                            placeholder="尋找熱門月嫂"
+                            class="search-input"
+                        />
+                        <button class="search-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <a href="#" class="btn btn-outline">成為月嫂</a>
+                    <a href="#" class="btn btn-primary">立即推薦</a>
+                    <a href="#" class="user-icon">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Key Visual -->
+        <section class="kv">
+            <div class="kv-container">
+                <div class="kv-content">
+                    <h1>媽咪的神隊友！</h1>
+                    <p>發掘適合您的服務項目及服務人員。</p>
+
+                    <!-- Search Form -->
+                    <div class="search-form">
+                        <div class="form-group-container">
+                            <!-- 地點選擇 -->
+                            <div class="form-group">
+                                <label>您所在的地點</label>
+                                <div class="select-wrapper">
+                                    <select>
+                                        <option>台灣,台北市</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+
+                            <!-- 預產日期 -->
+                            <div class="form-group">
+                                <label>您的預產日期</label>
+                                <div class="date-input">
+                                    <input
+                                        type="text"
+                                        value="2025.07.02"
+                                        readonly
+                                    />
+                                    <i class="far fa-calendar"></i>
+                                </div>
+                            </div>
+
+                            <!-- 服務時長 -->
+                            <div class="form-group">
+                                <label>每日服務時長</label>
+                                <div class="select-wrapper">
+                                    <select>
+                                        <option>4小時/單日</option>
+                                        <option>9小時/單日</option>
+                                        <option>24小時/單日</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+
+                            <!-- 預算區間 -->
+                            <div class="form-group">
+                                <label>預算區間</label>
+                                <div class="select-wrapper">
+                                    <select>
+                                        <option>2000元/單日</option>
+                                        <option>2500元/單日</option>
+                                        <option>3000元/單日</option>
+                                    </select>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 推薦按鈕 -->
+                        <button class="submit-btn">立即推薦</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="info-container">
+                <h2 class="info-title">關於愛月嫂的服務流程</h2>
+                <p class="info-subtitle">
+                    透明的找月嫂服務流程，四步驟快速挑選心儀的月嫂
+                </p>
+
+                <div class="process-container">
+                    <div class="process-item">
+                        <div class="process-circle">找尋<br />月嫂</div>
+                        <div class="process-text">
+                            <div class="process-number">1.尋找月嫂</div>
+                            <div class="process-desc">
+                                根據您的需求，<br />找尋心儀的月嫂
+                            </div>
+                        </div>
+                        <div class="process-arrow">
+                            <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="process-item">
+                        <div class="process-circle">媒合<br />清單</div>
+                        <div class="process-text">
+                            <div class="process-number">2.媒合清單</div>
+                            <div class="process-desc">
+                                加入月嫂清單，<br />送出給平台媒合
+                            </div>
+                        </div>
+                        <div class="process-arrow">
+                            <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="process-item">
+                        <div class="process-circle">專人<br />面談</div>
+                        <div class="process-text">
+                            <div class="process-number">3.專人面談</div>
+                            <div class="process-desc">
+                                平台與您聯繫，<br />面談月嫂細節
+                            </div>
+                        </div>
+                        <div class="process-arrow">
+                            <i class="fa-solid fa-caret-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="process-item">
+                        <div class="process-circle">開始<br />服務</div>
+                        <div class="process-text">
+                            <div class="process-number">4.開始服務</div>
+                            <div class="process-desc">
+                                至服務地點，<br />開始做月子服務
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 月嫂推薦區塊 -->
+        <div class="nanny_head">
+            <div class="head_wrap">
+                <h3><i class="fa-solid fa-thumbs-up"></i>人氣推薦精選月嫂</h3>
+                <a href="/nany.html"
+                    ><p>
+                        查看更多優秀月嫂<i
+                            class="fa-solid fa-angle-right"
+                        ></i></p
+                ></a>
+            </div>
+        </div>
+        <div class="cards_section">
+            <div class="cards_container">
+                <!-- /CARD -->
+
+                <div class="card">
+                    <div class="img_wrapper">
+                        <div class="verify_badge">愛月嫂認證</div>
+                        <img src="/img/月嫂卡.png" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <h3>中文｜英文</h3>
+                        <h2>蘇莉莉月嫂</h2>
+                        <p>月嫂資歷: 2 年以上</p>
+                        <div class="tagarea">
+                            <!-- <div class="tag"><p>護理師證照</p></div> -->
+                            <div class="tag"><p>護理師證照</p></div>
+                        </div>
+
+                        <div class="sentbtn"></div>
+
+                        <a href="#">加入月嫂清單</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img_wrapper">
+                        <div class="verify_badge">愛月嫂認證</div>
+                        <img src="/img/月嫂卡.png" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <h3>中文｜英文</h3>
+                        <h2>蘇莉莉月嫂</h2>
+                        <p>月嫂資歷: 2 年以上</p>
+                        <div class="tagarea">
+                            <div class="tag"><p>急救證照</p></div>
+                            <div class="tag"><p>護理師證照</p></div>
+                        </div>
+                        <a href="#">加入月嫂清單</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img_wrapper">
+                        <!-- <div class="verify_badge">愛月嫂認證</div> -->
+                        <img src="/img/月嫂卡.png" alt="" />
+                    </div>
+                    <div class="card_content">
+                        <h3>中文｜英文</h3>
+                        <h2>蘇莉莉月嫂</h2>
+                        <p>月嫂資歷: 2 年以上</p>
+                        <div class="tagarea">
+                            <div class="tag"><p>護理師證照</p></div>
+                            <div class="tag"><p>護理師證照</p></div>
+                        </div>
+                        <a href="#">加入月嫂清單</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benrfit -->
+        <div class="benefitsection">
+            <div class="benefit_content">
+                <div class="benefit_card">
+                    <div class="benefit_cardicon">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <div class="benefitword">
+                        <h3>彈性時間安排</h3>
+                        <p>
+                            我們了解每個家庭的需求不同，因此我們的月嫂服務可依您的時間表靈活調整。無論是全天候陪伴，還是短期支援，我們都能滿足您的需求，讓您省心又安心。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefit_card">
+                    <div class="benefit_cardicon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <div class="benefitword">
+                        <h3>找到完美月嫂</h3>
+                        <p>
+                            無論是照顧新生兒的日常起居，還是協助媽媽坐月子恢復，我們的月嫂都專業貼心，擁有豐富的經驗，確保每一個細節都周到處理。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefit_card">
+                    <div class="benefit_cardicon">
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                    <div class="benefitword">
+                        <h3>享受無憂月子</h3>
+                        <p>
+                            坐月子不該是壓力的來源，而是讓媽媽與寶寶放鬆的時光。我們提供到府月嫂服務，讓您在熟悉的家中享受最舒適的月子照護，實現真正的輕鬆愉快。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="benefit_img"><img src="/img/bennift.png" alt="" /></div>
+        </div>
+
+        <!-- SERVICE -->
+
+        <section class="services-section">
+            <div class="services-container">
+                <h2 class="services-title">
+                    <i class="fa-solid fa-medal"></i>
+                    月嫂服務內容
+                </h2>
+
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-baby"></i>
+                        </div>
+                        <p>寶寶清潔</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-broom"></i>
+                        </div>
+                        <p>簡易家事</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-baby-carriage"></i>
+                        </div>
+                        <p>寶寶照顧</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-user-nurse"></i>
+                        </div>
+                        <p>產婦照護</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                        <span>月子料理</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- comment cards -->
+<div class="commentsection_outside">
+        <div class="commentsection">
+            <div class="commentitle">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h3>來自媽咪的真實評價</h3>
+            </div>
+
+            <div class="comment_area">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="commentcard">
+                                <div class="comment_header">
+                                    <div class="header_left">
+                                        <div class="mom">
+                                            <img src="/img/mom.png" alt="" />
+                                        </div>
+                                        <h3>林小姐</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>&nbsp;5
+                                    </p>
+                                </div>
+                                <div class="comment_content">
+                                    <p>
+                                        緊急代班三天的蘇阿姨，真是感謝她的協助，到家裡馬上就適應狀況，煮飯也鹹淡適中非常好吃唷，雖然代班關係服務時間短短的，但是各方面的感受都相當舒服喔！很溫柔安撫。
+                                    </p>
+
+                                    <div class="comment_tag">
+                                        <div class="tag"><p>服務貼心</p></div>
+                                        <div class="tag"><p>手腳勤快</p></div>
+                                    </div>
+                                    <div class="recommend">
+                                        <h3>推薦</h3>
+                                        <a href="#">蘇慧芬 月嫂</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="commentcard">
+                                <div class="comment_header">
+                                    <div class="header_left">
+                                        <div class="mom">
+                                            <img src="/img/mom.png" alt="" />
+                                        </div>
+                                        <h3>林小姐</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>&nbsp;5
+                                    </p>
+                                </div>
+                                <div class="comment_content">
+                                    <p>
+                                        緊急代班三天的蘇阿姨，真是感謝她的協助，到家裡馬上就適應狀況，煮飯也鹹淡適中非常好吃唷，雖然代班關係服務時間短短的，但是各方面的感受都相當舒服喔！很溫柔安撫。
+                                    </p>
+
+                                    <div class="comment_tag">
+                                        <div class="tag"><p>服務貼心</p></div>
+                                        <div class="tag"><p>手腳勤快</p></div>
+                                    </div>
+                                    <div class="recommend">
+                                        <h3>推薦</h3>
+                                        <a href="#">蘇慧芬 月嫂</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="commentcard">
+                                <div class="comment_header">
+                                    <div class="header_left">
+                                        <div class="mom">
+                                            <img src="/img/mom.png" alt="" />
+                                        </div>
+                                        <h3>林小姐</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>&nbsp;5
+                                    </p>
+                                </div>
+                                <div class="comment_content">
+                                    <p>
+                                        緊急代班三天的蘇阿姨，真是感謝她的協助，到家裡馬上就適應狀況，煮飯也鹹淡適中非常好吃唷，雖然代班關係服務時間短短的，但是各方面的感受都相當舒服喔！很溫柔安撫。
+                                    </p>
+
+                                    <div class="comment_tag">
+                                        <div class="tag"><p>服務貼心</p></div>
+                                        <div class="tag"><p>手腳勤快</p></div>
+                                    </div>
+                                    <div class="recommend">
+                                        <h3>推薦</h3>
+                                        <a href="#">蘇慧芬 月嫂</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="commentcard">
+                                <div class="comment_header">
+                                    <div class="header_left">
+                                        <div class="mom">
+                                            <img src="/img/mom.png" alt="" />
+                                        </div>
+                                        <h3>林小姐</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>&nbsp;5
+                                    </p>
+                                </div>
+                                <div class="comment_content">
+                                    <p>
+                                        緊急代班三天的蘇阿姨，真是感謝她的協助，到家裡馬上就適應狀況，煮飯也鹹淡適中非常好吃唷，雖然代班關係服務時間短短的，但是各方面的感受都相當舒服喔！很溫柔安撫。
+                                    </p>
+
+                                    <div class="comment_tag">
+                                        <div class="tag"><p>服務貼心</p></div>
+                                        <div class="tag"><p>手腳勤快</p></div>
+                                    </div>
+                                    <div class="recommend">
+                                        <h3>推薦</h3>
+                                        <a href="#">蘇慧芬 月嫂</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="commentcard">
+                                <div class="comment_header">
+                                    <div class="header_left">
+                                        <div class="mom">
+                                            <img src="/img/mom.png" alt="" />
+                                        </div>
+                                        <h3>林小姐</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>&nbsp;5
+                                    </p>
+                                </div>
+                                <div class="comment_content">
+                                    <p>
+                                        緊急代班三天的蘇阿姨，真是感謝她的協助，到家裡馬上就適應狀況，煮飯也鹹淡適中非常好吃唷，雖然代班關係服務時間短短的，但是各方面的感受都相當舒服喔！很溫柔安撫。
+                                    </p>
+
+                                    <div class="comment_tag">
+                                        <div class="tag"><p>服務貼心</p></div>
+                                        <div class="tag"><p>手腳勤快</p></div>
+                                    </div>
+                                    <div class="recommend">
+                                        <h3>推薦</h3>
+                                        <a href="#">蘇慧芬 月嫂</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="commentcard">
+                                <div class="comment_header">
+                                    <div class="header_left">
+                                        <div class="mom">
+                                            <img src="/img/mom.png" alt="" />
+                                        </div>
+                                        <h3>林小姐</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>&nbsp;5
+                                    </p>
+                                </div>
+                                <div class="comment_content">
+                                    <p>
+                                        緊急代班三天的蘇阿姨，真是感謝她的協助，到家裡馬上就適應狀況，煮飯也鹹淡適中非常好吃唷，雖然代班關係服務時間短短的，但是各方面的感受都相當舒服喔！很溫柔安撫。
+                                    </p>
+
+                                    <div class="comment_tag">
+                                        <div class="tag"><p>服務貼心</p></div>
+                                        <div class="tag"><p>手腳勤快</p></div>
+                                    </div>
+                                    <div class="recommend">
+                                        <h3>推薦</h3>
+                                        <a href="#">蘇慧芬 月嫂</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="commentcard">
+                                <div class="comment_header">
+                                    <div class="header_left">
+                                        <div class="mom">
+                                            <img src="/img/mom.png" alt="" />
+                                        </div>
+                                        <h3>林小姐</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>&nbsp;5
+                                    </p>
+                                </div>
+                                <div class="comment_content">
+                                    <p>
+                                        緊急代班三天的蘇阿姨，真是感謝她的協助，到家裡馬上就適應狀況，煮飯也鹹淡適中非常好吃唷，雖然代班關係服務時間短短的，但是各方面的感受都相當舒服喔！很溫柔安撫。
+                                    </p>
+
+                                    <div class="comment_tag">
+                                        <div class="tag"><p>服務貼心</p></div>
+                                        <div class="tag"><p>手腳勤快</p></div>
+                                    </div>
+                                    <div class="recommend">
+                                        <h3>推薦</h3>
+                                        <a href="#">蘇慧芬 月嫂</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="commentcard">
+                                <div class="comment_header">
+                                    <div class="header_left">
+                                        <div class="mom">
+                                            <img src="/img/mom.png" alt="" />
+                                        </div>
+                                        <h3>林小姐</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>&nbsp;5
+                                    </p>
+                                </div>
+                                <div class="comment_content">
+                                    <p>
+                                        緊急代班三天的蘇阿姨，真是感謝她的協助，到家裡馬上就適應狀況，煮飯也鹹淡適中非常好吃唷，雖然代班關係服務時間短短的，但是各方面的感受都相當舒服喔！很溫柔安撫。
+                                    </p>
+
+                                    <div class="comment_tag">
+                                        <div class="tag"><p>服務貼心</p></div>
+                                        <div class="tag"><p>手腳勤快</p></div>
+                                    </div>
+                                    <div class="recommend">
+                                        <h3>推薦</h3>
+                                        <a href="#">蘇慧芬 月嫂</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="commentcard">
+                                <div class="comment_header">
+                                    <div class="header_left">
+                                        <div class="mom">
+                                            <img src="/img/mom.png" alt="" />
+                                        </div>
+                                        <h3>林小姐</h3>
+                                    </div>
+                                    <p>
+                                        <i class="fa-solid fa-star"></i>&nbsp;5
+                                    </p>
+                                </div>
+                                <div class="comment_content">
+                                    <p>
+                                        緊急代班三天的蘇阿姨，真是感謝她的協助，到家裡馬上就適應狀況，煮飯也鹹淡適中非常好吃唷，雖然代班關係服務時間短短的，但是各方面的感受都相當舒服喔！很溫柔安撫。
+                                    </p>
+
+                                    <div class="comment_tag">
+                                        <div class="tag"><p>服務貼心</p></div>
+                                        <div class="tag"><p>手腳勤快</p></div>
+                                    </div>
+                                    <div class="recommend">
+                                        <h3>推薦</h3>
+                                        <a href="#">蘇慧芬 月嫂</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /FOOTER -->
+
+    <footer class="footer">
+        <div class="footer_logo"><img src="/img/whitelogo.png" alt=""></div>
+
+        <div class="footer-content">
+                       <div class="footer-left">
+                <p>愛月嫂到府做月子經【台北市政府衛生局核備到府做月子機構】由愛月嫂國際股份有限公司所提供的服務，是全球華人首選最佳月嫂平台。</p>
+                <p>自古以來媽媽們坐月子的地方就是在自己家裡而不是月子中心！因此；為了妳，我們申心竭力提供到府月子服務的事，並致力於好還要棒的坐月子體驗。『要生養眾多，遍滿地面，治理這地』~創世紀 1:28</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="contact-info">
+                    <p>總部地址：臺北市信義區福德街251巷7弄36號1樓 <i class="fas fa-map-marker-alt"></i></p>
+                    <p><i class="fas fa-phone"></i>+886 2 - 8751 - 8076 </p>
+                    <p> <i class="fas fa-phone"></i>+886 2 - 8751 - 1936/p>
+                    <p><i class="fas fa-envelope"></i>service@launty.com </p>
+                    <p> <i class="fas fa-id-card"></i>統一編號：54651198</p>
+                    <p> <i class="fas fa-balance-scale"></i>法律顧問：陳郝嫦律師、維欣聯合律師事務所</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        版權所有 © 2025 愛月嫂 保留所有權利
+    </div>
+
+        <!-- Swiper -->
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 'auto',
+                // spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+            });
+        </script>
+    </body>
+</html>
